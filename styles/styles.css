@@ -6,6 +6,7 @@
 @import url(screens/settings.css);
 @import url(screens/chat.css);
 @import url(components/nav-bar.css);
+@import url(components/status-bar.css);
 @import url(components/screen-header.css);
 @import url(components/user-component.css);
 @import url(components/badge.css);

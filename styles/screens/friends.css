@@ -1,3 +1,5 @@
+@import url(../variables.css);
+
 #friends-display-link {
   text-align: center;
   display: block;

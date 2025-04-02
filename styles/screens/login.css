@@ -1,3 +1,77 @@
-@import url(styles/components/components-login/login-form.css);
-@import url(styles/components/status-bar.css);
-@import url(styles/components/components-login/welcome-header.css);
+@import url(../variables.css);
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  justify-content: space-between;
+  margin-top: 90px;
+  width: 500px;
+  height: 300px;
+}
+
+#login-form * {
+  height: 20%;
+}
+
+#login-form input {
+  border-width: 0px 0px 2px 0px;
+  border-color: rgb(0, 0, 0, 0.2);
+  font-size: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: rgb(0, 0, 0, 0.2);
+}
+
+#login-form input:focus {
+  border-color: var(--yellow);
+}
+
+#login-form button {
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(239, 239, 239);
+  font-size: 18px;
+}
+
+#login-form button:hover {
+  background-color: var(--yellow);
+}
+
+#login-form button:active {
+  background-color: #ebd408;
+}
+
+#find-ID {
+  display: block;
+  color: black;
+  width: 300px;
+  text-decoration-line: none;
+  text-align: center;
+  align-self: center;
+  margin: 20px auto;
+}
+
+#find-ID:hover {
+  color: rgb(0, 0, 0, 0.4);
+}
+
+.welcome-header {
+  margin-top: 90px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: 550;
+}
+
+.welcome-header__text {
+  color: grey;
+  font-size: 20px;
+}
