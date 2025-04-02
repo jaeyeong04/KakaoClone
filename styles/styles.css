@@ -1,15 +1,15 @@
-@import "reset.css";
-@import "screens/login.css";
-@import "screens/friends.css";
-@import "screens/find.css";
-@import "screens/more.css";
-@import "screens/settings.css";
-@import "screens/chat.css";
-@import "components/nav-bar.css";
-@import "components/screen-header.css";
-@import "components/user-component.css";
-@import "components/badge.css";
-@import "components/alternative-screen-header.css";
+@import url(reset.css);
+@import url(screens/login.css);
+@import url(screens/friends.css);
+@import url(screens/find.css);
+@import url(screens/more.css);
+@import url(screens/settings.css);
+@import url(screens/chat.css);
+@import url(components/nav-bar.css);
+@import url(components/screen-header.css);
+@import url(components/user-component.css);
+@import url(components/badge.css);
+@import url(components/alternative-screen-header.css);
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
