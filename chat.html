@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings - KakaoTalkPrac</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock"></i>
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alternative-screen-header">
+      <div class="alternative-screen-header__column">
+        <a href="chats.html"><i class="fa-solid fa-chevron-left fa-xl"></i></a>
+      </div>
+      <div class="alternative-screen-header__column">
+        <h1 class="alternative-screen-header__title">이름</h1>
+      </div>
+      <div class="alternative-screen-header__column">
+        <span><i class="fa-solid fa-magnifying-glass fa-xl"></i></span>
+        <span><i class="fa-solid fa-bars fa-xl"></i></span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chat__time-stamp">Tuesday, April 1, 2025</div>
+      <div class="message-row">
+        <img src="images/user.png" />
+        <div class="message-row__column">
+          <span class="message__name">이름</span>
+          <div class="message__info">
+            <span class="message__content">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__column">
+          <div class="message__info">
+            <span class="message__content">Hi!</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply">
+      <div class="reply__column">
+        <i class="fa-regular fa-square-plus fa-2x"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="Input your message" />
+        <i class="fa-regular fa-face-smile fa-2x"></i>
+        <button class="reply__button">
+          <i class="fa-solid fa-arrow-up fa-2x"></i>
+        </button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/9b0756c5bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

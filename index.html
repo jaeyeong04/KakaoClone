@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KakaoTalkLogIn</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fa-solid fa-lock"></i>
+        <span>100%</span>
+        <i class="fa-solid fa-battery-full"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <div>
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
+        <p class="welcome-header__text">
+          If you have a Kakao Account,<br />log in with your email or phone
+          number.
+        </p>
+      </header>
+      <form action="friends.html" method="get" id="login-form">
+        <input
+          name="username"
+          type="email"
+          placeholder="Email or phone number"
+        />
+        <input name="password" type="password" placeholder="Password" />
+        <button type="submit">Log In</button>
+        <button id="signin-button">Sign Up</button>
+      </form>
+      <a href="#" id="find-ID">Find Kakao Account or Password</a>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/9b0756c5bc.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

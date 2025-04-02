@@ -1,0 +1,145 @@
+.find__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.find__btn {
+  display: flex;
+}
+
+.find__text {
+  height: 30px;
+  font-size: 18px;
+  margin: 25px 0px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.find__a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.find__a i {
+  font-size: 35px;
+}
+
+.recommendation {
+  padding: 25px 0px;
+  border-top: var(--common-border);
+  border-bottom: var(--common-border);
+}
+.recommendation h1 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--grey);
+}
+
+.recommendation h2 {
+  padding: 100px 0px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--grey);
+  text-align: center;
+}
+
+.open-chat__title-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 0px;
+}
+
+.open-chat__title {
+  color: var(--grey);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.open-chat__home-btn {
+  display: flex;
+  align-items: center;
+}
+
+.open-chat__home-btn span,
+.open-chat__home-btn i {
+  color: var(--grey);
+}
+
+.open-chat__home-btn i {
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  color: var(--grey);
+  margin-bottom: 13px;
+}
+
+.open-post__members {
+  margin-top: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 7px;
+}
+
+.open-post__member-count {
+  color: var(--grey);
+  font-size: 14px;
+}
+
+.open-post__members .divider {
+  width: 2px;
+  height: 10px;
+  margin: 0px 5px;
+  background-color: var(--grey);
+}
+
+.open-post__member-status {
+  color: #ffb0e0;
+}
+
+.open-post__photo {
+  position: relative;
+}
+
+.open-post__photo img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px;
+}
+
+.open-post__like {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 12px;
+}
+
+.open-post__like-count {
+  margin-left: 3px;
+}

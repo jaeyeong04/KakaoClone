@@ -1,0 +1,18 @@
+.number-badge {
+  display: flex;
+  background-color: tomato;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+.badge {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
