@@ -1,4 +1,4 @@
-@import url(KakaoTalkClone/styles/variables.css);
+@import "KakaoTalkClone/styles/variables.css";
 
 #login-form {
   display: flex;
