@@ -1,3 +1,3 @@
-@import "styles/components/components-login/login-form.css";
-@import "styles/components/status-bar.css";
-@import "styles/components/components-login/welcome-header.css";
+@import url(styles/components/components-login/login-form.css);
+@import url(styles/components/status-bar.css);
+@import url(styles/components/components-login/welcome-header.css);
